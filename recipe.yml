@@ -1,0 +1,11 @@
+name: 'Zoocha Media Bundle'
+description: 'Adds media and related modules'
+type: 'Feature'
+
+install:
+  - media
+  - media_library
+  - crop
+  - focal_point
+config:
+  strict: false
