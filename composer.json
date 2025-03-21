@@ -1,6 +1,6 @@
 {
     "name": "zr/zr-media-bundle",
-    "description": "Zoocha Media Bundle",
+    "description": "ZR Media Bundle",
     "type": "drupal-recipe",
     "require": {
         "php": ">=8.1",
