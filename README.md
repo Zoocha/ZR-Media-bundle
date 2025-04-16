@@ -11,6 +11,7 @@ To install the ZR Media Recipe, follow the steps below:
 4. Run the following command:
 
     ```sh
+    ddev drush cr
     ddev drush recipe recipes/custom/zr-media-bundle
     ```
 
