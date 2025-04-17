@@ -9,7 +9,7 @@ dependencies:
   module:
     - image
 _core:
-  default_config_hash: 73xaTNkI5J6sfFcBmNYeuk070X3mQS_iwwWaPYyfG2M
+  default_config_hash: gI9OWHrmodSU1oGa9aG54Hwq0jJb6Dn7NIENGzQyZjo
 id: media.image.default
 targetEntityType: media
 bundle: image
@@ -28,7 +28,6 @@ content:
     region: content
 hidden:
   created: true
-  langcode: true
   name: true
   search_api_excerpt: true
   thumbnail: true
