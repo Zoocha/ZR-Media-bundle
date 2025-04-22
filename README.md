@@ -1,18 +1,15 @@
-# ZR Media Recipe Installation Guide
+# ZR Media Bundle Installation Guide
 
-To install the ZR Media Recipe, follow the steps below:
+To install the ZR Media Bundle, follow the steps below:
 
-1. Open your terminal.
-2. Navigate to your project directory. 
-3. Ahead of running `composer require zr/RECIPE_NAME` - ensure the below has been added to the root `composer.json` **installer-paths**
+1. Ensure the below has been added to the `composer.json` **installer-paths**
     ```sh
     "web/recipes/custom/{$name}": ["type:drupal-recipe"]
     ```
-4. Run the following command:
+2. Run `composer require zr/zr-media-bundle`
+3. Run the following command (within `/web` directory):
 
     ```sh
-    ddev drush cr
     ddev drush recipe recipes/custom/zr-media-bundle
     ```
 
-This command will execute the ZR Media Recipe installation.
